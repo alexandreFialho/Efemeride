@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3420FA08216CFD9700DB9208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3420FA07216CFD9700DB9208 /* AppDelegate.swift */; };
+		3420FA0A216CFD9700DB9208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3420FA09216CFD9700DB9208 /* ViewController.swift */; };
+		3420FA0D216CFD9700DB9208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3420FA0B216CFD9700DB9208 /* Main.storyboard */; };
+		3420FA0F216CFD9700DB9208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3420FA0E216CFD9700DB9208 /* Assets.xcassets */; };
+		3420FA12216CFD9700DB9208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3420FA10216CFD9700DB9208 /* LaunchScreen.storyboard */; };
+		3420FA1A216D004500DB9208 /* DatasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3420FA19216D004500DB9208 /* DatasTableViewCell.swift */; };
+		3420FA28216D196000DB9208 /* MicrosoftAzureMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3420FA1B216D030300DB9208 /* MicrosoftAzureMobile.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3420FA04216CFD9700DB9208 /* Efemeride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Efemeride.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3420FA07216CFD9700DB9208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3420FA09216CFD9700DB9208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3420FA0C216CFD9700DB9208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3420FA0E216CFD9700DB9208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3420FA11216CFD9700DB9208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3420FA13216CFD9700DB9208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3420FA19216D004500DB9208 /* DatasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasTableViewCell.swift; sourceTree = "<group>"; };
+		3420FA1B216D030300DB9208 /* MicrosoftAzureMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftAzureMobile.framework; sourceTree = "<group>"; };
+		3420FA1C216D043900DB9208 /* Efemeride-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Efemeride-Bridging-Header.h"; sourceTree = "<group>"; };
+		3420FA21216D163100DB9208 /* Efemeride.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Efemeride.xcodeproj; sourceTree = "<group>"; };
+		3420FA25216D169400DB9208 /* Efemeride */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Efemeride; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3420FA01216CFD9700DB9208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3420FA28216D196000DB9208 /* MicrosoftAzureMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3420F9FB216CFD9700DB9208 = {
+			isa = PBXGroup;
+			children = (
+				3420FA06216CFD9700DB9208 /* Efemeride */,
+				3420FA05216CFD9700DB9208 /* Products */,
+				3420FA20216D163000DB9208 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3420FA05216CFD9700DB9208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3420FA04216CFD9700DB9208 /* Efemeride.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3420FA06216CFD9700DB9208 /* Efemeride */ = {
+			isa = PBXGroup;
+			children = (
+				3420FA1B216D030300DB9208 /* MicrosoftAzureMobile.framework */,
+				3420FA07216CFD9700DB9208 /* AppDelegate.swift */,
+				3420FA09216CFD9700DB9208 /* ViewController.swift */,
+				3420FA0B216CFD9700DB9208 /* Main.storyboard */,
+				3420FA19216D004500DB9208 /* DatasTableViewCell.swift */,
+				3420FA0E216CFD9700DB9208 /* Assets.xcassets */,
+				3420FA10216CFD9700DB9208 /* LaunchScreen.storyboard */,
+				3420FA13216CFD9700DB9208 /* Info.plist */,
+				3420FA1C216D043900DB9208 /* Efemeride-Bridging-Header.h */,
+			);
+			path = Efemeride;
+			sourceTree = "<group>";
+		};
+		3420FA20216D163000DB9208 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3420FA25216D169400DB9208 /* Efemeride */,
+				3420FA21216D163100DB9208 /* Efemeride.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3420FA22216D163100DB9208 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3420FA03216CFD9700DB9208 /* Efemeride */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3420FA16216CFD9700DB9208 /* Build configuration list for PBXNativeTarget "Efemeride" */;
+			buildPhases = (
+				3420FA00216CFD9700DB9208 /* Sources */,
+				3420FA01216CFD9700DB9208 /* Frameworks */,
+				3420FA02216CFD9700DB9208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Efemeride;
+			productName = Efemeride;
+			productReference = 3420FA04216CFD9700DB9208 /* Efemeride.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3420F9FC216CFD9700DB9208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = STR;
+				TargetAttributes = {
+					3420FA03216CFD9700DB9208 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3420F9FF216CFD9700DB9208 /* Build configuration list for PBXProject "Efemeride" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3420F9FB216CFD9700DB9208;
+			productRefGroup = 3420FA05216CFD9700DB9208 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3420FA22216D163100DB9208 /* Products */;
+					ProjectRef = 3420FA21216D163100DB9208 /* Efemeride.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3420FA03216CFD9700DB9208 /* Efemeride */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3420FA02216CFD9700DB9208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3420FA12216CFD9700DB9208 /* LaunchScreen.storyboard in Resources */,
+				3420FA0F216CFD9700DB9208 /* Assets.xcassets in Resources */,
+				3420FA0D216CFD9700DB9208 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3420FA00216CFD9700DB9208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3420FA0A216CFD9700DB9208 /* ViewController.swift in Sources */,
+				3420FA1A216D004500DB9208 /* DatasTableViewCell.swift in Sources */,
+				3420FA08216CFD9700DB9208 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3420FA0B216CFD9700DB9208 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3420FA0C216CFD9700DB9208 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3420FA10216CFD9700DB9208 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3420FA11216CFD9700DB9208 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3420FA14216CFD9700DB9208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos11.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3420FA15216CFD9700DB9208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos11.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3420FA17216CFD9700DB9208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54VBM596T3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Efemeride",
+				);
+				GENERATE_PROFILING_CODE = NO;
+				INFOPLIST_FILE = Efemeride/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.Efemeride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Efemeride/Efemeride-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3420FA18216CFD9700DB9208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54VBM596T3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Efemeride",
+				);
+				GENERATE_PROFILING_CODE = NO;
+				INFOPLIST_FILE = Efemeride/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.Efemeride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Efemeride/Efemeride-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3420F9FF216CFD9700DB9208 /* Build configuration list for PBXProject "Efemeride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3420FA14216CFD9700DB9208 /* Debug */,
+				3420FA15216CFD9700DB9208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3420FA16216CFD9700DB9208 /* Build configuration list for PBXNativeTarget "Efemeride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3420FA17216CFD9700DB9208 /* Debug */,
+				3420FA18216CFD9700DB9208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3420F9FC216CFD9700DB9208 /* Project object */;
+}
